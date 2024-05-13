@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>| Online Quiz System |</title>
+        <title>| Quziko PHP |</title>
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="shortcut icon" type="image/png" href="image/logo.png" />
         <style type="text/css">
@@ -21,10 +21,10 @@
     <body>
         <center>
             <div class="intro">
-                <h1> online quiz system ddw </h1>
+                <h1> Quiziko </h1>
                 <a href="login.php" class="btn"> login </a> &emsp;
                 <a href="register.php" class="btn"> register </a>
-                <h2> Good &nbsp;Luck. </h2>
+                <h2> by Niko & Romo. </h2>
             </div>
         </center>
     </body>

@@ -65,30 +65,30 @@
 				<div class="box-wrapper">				
 					<div class="box box-border">
 						<div class="box-body">
-							<center> <h5 style="font-family: Noto Sans;">Register to </h5><h4 style="font-family: Noto Sans;">Online Quiz System</h4></center><br>
+							<center> <h5 style="font-family: Noto Sans;">Авторизация </h5><h4 style="font-family: Noto Sans;">Quiziko PHP</h4></center><br>
 							<form method="post" action="register.php" enctype="multipart/form-data">
                                 <div class="form-group">
-									<label>Enter Your Username:</label>
-									<input type="text" name="name" class="form-control" required />
+									<label>Имя и Фамилия</label>
+									<input type="text" name="name" class="form-control" placeholder="Введите имя и фамилию" required  />
 								</div>
 								<div class="form-group">
-									<label>Enter Your Email Id:</label>
-									<input type="email" name="email" class="form-control" required />
+									<label>Почта</label>
+									<input type="email" name="email" class="form-control" placeholder="Введите email" required />
 								</div>
 								<div class="form-group">
-									<label>Enter Your Password:</label>
-									<input type="password" name="password" class="form-control" required />
+									<label>Пароль</label>
+									<input type="password" name="password" class="form-control" placeholder="Введите пароль" required />
                                 </div>
 								<div class="form-group">
-									<label>Enter Your College Name:</label>
-									<input type="text" name="college" class="form-control" required />
+									<label>Учебное учереждение</label>
+									<input type="text" name="college" class="form-control" placeholder="Введите название колледжа" required />
 								</div>
                                 
 								<div class="form-group text-right">
-									<button class="btn btn-primary btn-block" name="submit">Register</button>
+									<button class="btn btn-primary btn-block" name="submit">Регистрация</button>
 								</div>
 								<div class="form-group text-center">
-									<span class="text-muted">Already have an account! </span> <a href="login.php">Login </a> Here..
+									<span class="text-muted">Уже есть аккаунт?</span> <a href="login.php">Войти</a>
 								</div>
 							</form>
 						</div>
