@@ -40,16 +40,15 @@
         <a class="navbar-brand" href="#"><b>Quiziko Online</b></a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li <?php if(@$_GET['q']==1) echo'class="active"'; ?> ><a href="welcome.php?q=1"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;Home<span class="sr-only">(current)</span></a></li>
-            <li <?php if(@$_GET['q']==2) echo'class="active"'; ?>> <a href="welcome.php?q=2"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>&nbsp;History</a></li>
-            <li <?php if(@$_GET['q']==3) echo'class="active"'; ?>> <a href="welcome.php?q=3"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;Ranking</a></li>
+            <li <?php if(@$_GET['q']==1) echo'class="active"'; ?> ><a href="welcome.php?q=1"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;Главная<span class="sr-only">(current)</span></a></li>
+            <li <?php if(@$_GET['q']==2) echo'class="active"'; ?>> <a href="welcome.php?q=2"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>&nbsp;История</a></li>
+            <li <?php if(@$_GET['q']==3) echo'class="active"'; ?>> <a href="welcome.php?q=3"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;Ранг</a></li>
             
         </ul>
         <ul class="nav navbar-nav navbar-right">
-        <li <?php echo''; ?> > <a href="logout.php?q=welcome.php"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>&nbsp;Log out</a></li>
+        <li <?php echo''; ?> > <a href="logout.php?q=welcome.php"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>&nbsp;Выйти</a></li>
         </ul>
         
             
@@ -66,7 +65,7 @@
                 {
                     $result = mysqli_query($con,"SELECT * FROM quiz ORDER BY date DESC") or die('Error');
                     echo  '<div class="panel"><div class="table-responsive"><table class="table table-striped title1">
-                    <tr><td><center><b>S.N.</b></center></td><td><center><b>Topic</b></center></td><td><center><b>Total question</b></center></td><td><center><b>Marks</center></b></td><td><center><b>Action</b></center></td></tr>';
+                    <tr><td><center><b>Номер</b></center></td><td><center><b>Название</b></center></td><td><center><b>Всего вопросов</b></center></td><td><center><b>Баллы</center></b></td><td><center><b></b></center></td></tr>';
                     $c=1;
                     while($row = mysqli_fetch_array($result)) {
                         $title = $row['title'];
