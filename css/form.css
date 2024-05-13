@@ -105,7 +105,9 @@ body {
   .btn-primary {
     background-color: #F73F52;
     border-color: #F73F52;
+    border-radius: 10px;
   }
+
   .btn-primary:disabled, .btn-primary.disabled, .btn-primary:hover, .btn-primary:active, .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:focus {
     background-color: #c8081c;
     border-color: #c8081c;
@@ -275,6 +277,7 @@ body {
     border-radius: 0;
     font-family: 'Noto Sans';
     font-weight: 300;
+    border-radius: 10px;
   }
   .form-group .form-control:focus {
     border-color: #989898;
@@ -378,6 +381,7 @@ body {
   .box.box-border {
     box-shadow: none;
     border: 1px solid #f2f2f2;
+    border-radius: 20px;
   }
   .box .box-body {
     padding: 30px;
