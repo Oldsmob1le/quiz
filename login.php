@@ -65,23 +65,21 @@
 				<div class="box-wrapper">				
 					<div class="box box-border">
 						<div class="box-body">
-						<center> <h5 style="font-family: Noto Sans;">Login to </h5><h4 style="font-family: Noto Sans;">Online Quiz System</h4></center><br>
+						<center> <h5 style="font-family: Noto Sans;">Авторизация</h5><h4 style="font-family: Noto Sans;">Quiziko PHP</h4></center><br>
 							<form method="post" action="login.php" enctype="multipart/form-data">
 								<div class="form-group">
-									<label>Enter Your Email Id:</label>
-									<input type="email" name="email" class="form-control">
+									<label>Почта</label>
+									<input type="email" name="email" class="form-control" placeholder="Введите email">
 								</div>
 								<div class="form-group">
-									<label class="fw">Enter Your Password:
-										<a href="javascript:void(0)" class="pull-right">Forgot Password?</a>
-									</label>
-									<input type="password" name="password" class="form-control">
+								<label>Пароль</label>
+									<input type="password" name="password" class="form-control" placeholder="Введите пароль">
 								</div> 
 								<div class="form-group text-right">
-									<button class="btn btn-primary btn-block" name="submit">Login</button>
+									<button class="btn btn-primary btn-block" name="submit">Войти</button>
 								</div>
 								<div class="form-group text-center">
-									<span class="text-muted">Don't have an account?</span> <a href="register.php">Register</a> Here..
+									<span class="text-muted">Нет аккаунта?</span> <a href="register.php">Зарегестрироваться</a>
 								</div>
 							</form>
 						</div>

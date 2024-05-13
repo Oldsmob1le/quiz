@@ -69,20 +69,18 @@
 				<div class="box-wrapper">				
 					<div class="box box-border">
 						<div class="box-body">
-						<center> <h5 style="font-family: Noto Sans;">Login to </h5><h4 style="font-family: Noto Sans;">Admin Page</h4></center><br>
+						<center> <h5 style="font-family: Noto Sans;">Quiziko </h5><h4 style="font-family: Noto Sans;">Админ панель</h4></center><br>
 							<form method="post" action="admin.php" enctype="multipart/form-data">
 								<div class="form-group">
-									<label>Enter Your Email Id:</label>
-									<input type="email" name="email" class="form-control">
+									<label>Почта</label>
+									<input type="email" name="email" class="form-control" placeholder="Введите email">
 								</div>
 								<div class="form-group">
-									<label class="fw">Enter Your Password:
-										<a href="javascript:void(0)" class="pull-right">Forgot Password?</a>
-									</label>
-									<input type="password" name="password" class="form-control">
+									<label class="fw">Пароль</label>
+									<input type="password" name="password" class="form-control" placeholder="Введите пароль">
 								</div> 
 								<div class="form-group text-right">
-									<button class="btn btn-primary btn-block" name="submit">Login</button>
+									<button class="btn btn-primary btn-block" name="submit">Войти</button>
 								</div>
 								
 							</form>
